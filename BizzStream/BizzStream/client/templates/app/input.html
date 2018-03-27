@@ -1,0 +1,13 @@
+<template name="insertForm">
+  <div class= "container jumbotron">
+    {{#autoForm collection="Clients" id="insertForm" type="insert"}}
+      <fieldset>
+        <legend>Add a new customer</legend>
+        {{> afQuickField name='customerName'}}
+        {{> afQuickField name='customerAge'}}
+        {{> afQuickField name='createdAt'}}
+      </fieldset>
+      <button type="submit" class="btn btn-primary mb1 bg-orange">Submit</button>
+    {{/autoForm}}
+  </div>
+</template>

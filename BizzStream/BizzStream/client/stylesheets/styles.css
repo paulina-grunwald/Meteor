@@ -1,0 +1,215 @@
+
+/* CSS declarations go here */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 50px;
+  font-family: "Mukta Malar", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 60px;
+}
+
+/*main page container*/
+.container-index {
+
+    margin: 0 auto; 
+    width:500px;
+
+}
+
+/* styling of the hyperlink */
+a {
+    font-weight: bold;
+    color: #ce6441;
+}
+
+
+/* styling for main page */
+
+.cover{
+  color: rgb(255, 255, 255);
+  position: relative;
+  min-height: 250px;
+  padding-top:80px;
+  background: url("/images/banner.png") no-repeat scroll 0px 100% / cover transparent;
+  border-bottom:9px solid #ce6441;
+}
+
+.jumbotron{
+  background: none;
+}
+.jumbotron h1{
+  font-size: 63px;
+  text-align:center;
+  margin:0
+}
+.jumbotron p.lead {
+  font-family:"Georgia";
+  text-align:center;
+  font-size:36px;
+  font-style:italic;
+  color:#ccc;
+
+}
+
+
+/*navigation bar styling*/
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background: transparent;
+  background-image: none;
+  border: 1px solid #333333;
+  border-radius: 4px;
+}
+
+/*this make the text of the navbar layout out horizontally*/
+li {
+    display: inline;
+}
+
+
+/* Table styling*/
+
+
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    vertical-align: middle;
+    padding: 8px;
+    text-align: center;
+    width: 50%;
+    float: none;
+
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ce6441;
+    color: white;
+}
+
+.table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+/* footer */
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.text-muted {
+  text-align: center;
+}
+
+
+
+.text {
+   text-align: justify;
+}
+
+.text-contact {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* styling of font awesome icons for hover function */
+
+.fa {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.fa:hover { 
+    color: #7a361f;
+}
+
+
+
+/* Add CSS for error 404 page */
+
+.error {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.error-code {
+  bottom: 60%;
+  color: #2d353c;
+  font-size: 96px;
+  line-height: 100px;
+}
+
+.error-desc {
+  font-size: 12px;
+  color: #647788;
+}
+
+.m-b-10 {
+  margin-bottom: 10px!important;
+}
+
+.m-b-20 {
+  margin-bottom: 20px!important;
+}
+
+.m-t-20 {
+  margin-top: 20px!important;
+}
+
+/* Add CSS for loading page */
+.loading-message {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.sk-spinner-rotating-plane.sk-spinner {
+  background-color: #fff;
+}
+
+
+
+.btn-primary {
+  background-color: #ce6441 !important;
+  border-color: #6d301b !important;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #7a361f !important;
+  border-color: #6d301b !important;
+  color: #fff;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+   background-color: #7a361f !important;
+   border-color: #6d301b !important;
+   color: #fff;
+}
